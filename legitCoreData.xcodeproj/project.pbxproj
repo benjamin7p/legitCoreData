@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		9AD86E8B21E8E468004FC363 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD86E8A21E8E468004FC363 /* AppDelegate.swift */; };
-		9AD86E8D21E8E468004FC363 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD86E8C21E8E468004FC363 /* ViewController.swift */; };
 		9AD86E9021E8E468004FC363 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AD86E8E21E8E468004FC363 /* Main.storyboard */; };
 		9AD86E9221E8E469004FC363 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AD86E9121E8E469004FC363 /* Assets.xcassets */; };
 		9AD86E9521E8E469004FC363 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AD86E9321E8E469004FC363 /* LaunchScreen.storyboard */; };
+		9AD86E9D21E8E7EC004FC363 /* ListTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD86E9C21E8E7EC004FC363 /* ListTableTableViewController.swift */; };
+		9AD86EA121E8E8FA004FC363 /* TeamDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD86EA021E8E8FA004FC363 /* TeamDetailViewController.swift */; };
+		9AD86EA321E8EB8D004FC363 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD86EA221E8EB8D004FC363 /* Stack.swift */; };
+		9AD86EA621E8EBD9004FC363 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9AD86EA421E8EBD9004FC363 /* Model.xcdatamodeld */; };
+		9AD86EA821E8EC69004FC363 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD86EA721E8EC69004FC363 /* Team.swift */; };
+		9AD86EAC21E8F0DC004FC363 /* TeamController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD86EAB21E8F0DC004FC363 /* TeamController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9AD86E8721E8E468004FC363 /* legitCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = legitCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AD86E8A21E8E468004FC363 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9AD86E8C21E8E468004FC363 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9AD86E8F21E8E468004FC363 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9AD86E9121E8E469004FC363 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AD86E9421E8E469004FC363 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AD86E9621E8E469004FC363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AD86E9C21E8E7EC004FC363 /* ListTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableTableViewController.swift; sourceTree = "<group>"; };
+		9AD86EA021E8E8FA004FC363 /* TeamDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailViewController.swift; sourceTree = "<group>"; };
+		9AD86EA221E8EB8D004FC363 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		9AD86EA521E8EBD9004FC363 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		9AD86EA721E8EC69004FC363 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		9AD86EAB21E8F0DC004FC363 /* TeamController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +65,13 @@
 			isa = PBXGroup;
 			children = (
 				9AD86E8A21E8E468004FC363 /* AppDelegate.swift */,
-				9AD86E8C21E8E468004FC363 /* ViewController.swift */,
 				9AD86E8E21E8E468004FC363 /* Main.storyboard */,
+				9AD86E9C21E8E7EC004FC363 /* ListTableTableViewController.swift */,
+				9AD86EA021E8E8FA004FC363 /* TeamDetailViewController.swift */,
+				9AD86EAB21E8F0DC004FC363 /* TeamController.swift */,
+				9AD86EA721E8EC69004FC363 /* Team.swift */,
+				9AD86EA221E8EB8D004FC363 /* Stack.swift */,
+				9AD86EA421E8EBD9004FC363 /* Model.xcdatamodeld */,
 				9AD86E9121E8E469004FC363 /* Assets.xcassets */,
 				9AD86E9321E8E469004FC363 /* LaunchScreen.storyboard */,
 				9AD86E9621E8E469004FC363 /* Info.plist */,
@@ -135,7 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AD86E8D21E8E468004FC363 /* ViewController.swift in Sources */,
+				9AD86EA821E8EC69004FC363 /* Team.swift in Sources */,
+				9AD86EA321E8EB8D004FC363 /* Stack.swift in Sources */,
+				9AD86E9D21E8E7EC004FC363 /* ListTableTableViewController.swift in Sources */,
+				9AD86EA621E8EBD9004FC363 /* Model.xcdatamodeld in Sources */,
+				9AD86EAC21E8F0DC004FC363 /* TeamController.swift in Sources */,
+				9AD86EA121E8E8FA004FC363 /* TeamDetailViewController.swift in Sources */,
 				9AD86E8B21E8E468004FC363 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,6 +354,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9AD86EA421E8EBD9004FC363 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9AD86EA521E8EBD9004FC363 /* Model.xcdatamodel */,
+			);
+			currentVersion = 9AD86EA521E8EBD9004FC363 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9AD86E7F21E8E467004FC363 /* Project object */;
 }
